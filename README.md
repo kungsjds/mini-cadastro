@@ -2,5 +2,5 @@
 
 #### Conexão com o banco de dados: SQLite. Criado em tempo de execução.
 
-## Ferramenta utilizada:
-### SQLiteStudio.
+### Ferramenta utilizada:
+**[SQLiteStudio](https://sqlitestudio.pl)**
