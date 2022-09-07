@@ -9,7 +9,7 @@ uses
   FireDAC.Phys.SQLiteDef, FireDAC.Stan.ExprFuncs, FireDAC.VCLUI.Wait, Data.DB,
   FireDAC.Comp.Client, FireDAC.Stan.Param, FireDAC.DatS, FireDAC.DApt.Intf,
   FireDAC.DApt, FireDAC.Comp.DataSet, Datasnap.DBClient, Datasnap.Provider,
-  model.entity.produtos;
+  model.entity.produtos, MidasLib;
 
 type
   TdmCadastro = class(TDataModule)
@@ -41,6 +41,9 @@ var
   dmCadastro: TdmCadastro;
 
 implementation
+
+uses
+  System.Types;
 
 {%CLASSGROUP 'Vcl.Controls.TControl'}
 
